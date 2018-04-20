@@ -1,9 +1,5 @@
-Erlang is a functional programming language invented by Ericson. 
-
+Erlang is a functional programming language invented by Ericson specifically made for multi use systems. 
 It's major strength is the concurrency and distributed programming.
-
-It has the ability to handle multiple threads ( Process in Erlang terms) at the same time not utilising double CPU processing power. Unlike C program thread in which each thread uses seperate resources from the CPU. 
-
-It's impact in recent years has been amazing especially as its been used by many companies for example whatsapp messenger is written in Erlang, Goldman Sachs trading db, amazon db, Facebook back end for chat service are some examples.
-
-Erlang is a programming language specifically made for multi use systems. It isn't good for single user apps like text editors, browsers or such.
+It has the ability to handle multiple threads ( Process in Erlang terms) at the same time not utilising double CPU processing power. 
+It's impact in recent years has been amazing especially as its been used by many companies for example whatsapp messenger is written in Erlang,
+Goldman Sachs trading db, amazon db, Facebook back end for chat service are some examples.

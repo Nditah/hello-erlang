@@ -9,7 +9,7 @@ call(Arg1, Arg2) ->
 
 start() -> 
 	io:fwrite("\n\n ********** LESSON ON FUNCTIONS AND PROCESS IN ERLANG ********** \n\n"),
-	%
+	% Create a process: spawn(Module, Name, Args)
 	Pid = spawn(?MODULE, call, ["hello", "process"]), 
    	io:fwrite("~p",[Pid]),
 

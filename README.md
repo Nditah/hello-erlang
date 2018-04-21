@@ -14,12 +14,14 @@ Documentation: http://erlang.org/doc/search/
 C:\Program Files\erl9.3\bin
 2. Open your Console in the project dir and type
 	> erl
-3. It takes you to Erlang shell. Enter the follwong
+3. It takes you to Erlang shell. Enter the follwong:
+
 	> c(helloworld). % filename same as -module(helloworld).
-{ok,helloworld}
-	> helloworld: start(). % use the module name to access the function start()
-Hello, world!
-ok
+	> {ok,helloworld}
+	> helloworld: start(). 
+	> % use the module name to access the function start()
+	> Hello, world!
+	> ok
 
 Exercise covers the following topics
 
